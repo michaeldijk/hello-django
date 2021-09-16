@@ -27,6 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Only secret key holders can make changes... LOL - Accidentally saved it, but now it's changed 16/09
 ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
